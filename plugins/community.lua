@@ -38,6 +38,16 @@ return {
   },
 
   {
+    "haskell-tools.nvim",
+    opts = {
+      tools = {
+        stylize_markdown = true,
+        auto_focus = true,
+      },
+    },
+  },
+
+  {
     "linux-cultist/venv-selector.nvim",
     keys = false,
   },
