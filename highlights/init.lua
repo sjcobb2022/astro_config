@@ -1,8 +1,3 @@
--- return {
--- override for transparent background?
--- Normal = { bg = "#000000" },
--- }
-
 return function()
   local get_hlgroup = require("astronvim.utils").get_hlgroup
   -- get highlights from highlight groups
@@ -11,6 +6,7 @@ return function()
   local bg_alt = get_hlgroup("Visual").bg
   local green = get_hlgroup("String").fg
   local red = get_hlgroup("Error").fg
+
   -- return a table of highlights for telescope based on colors gotten from highlight groups
   return {
     TelescopeBorder = { fg = bg_alt, bg = bg },
