@@ -1,0 +1,5 @@
+return {
+  float = {
+    border = "single",
+  },
+}
