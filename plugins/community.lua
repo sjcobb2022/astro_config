@@ -4,6 +4,7 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.nix" },
   -- { import = "astrocommunity.pack.haskell" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.cmake" },
