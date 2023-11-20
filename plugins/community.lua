@@ -1,8 +1,9 @@
 return {
   "AstroNvim/astrocommunity",
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.pack.rust" },
+  -- { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.nix" },
   -- { import = "astrocommunity.pack.haskell" },
