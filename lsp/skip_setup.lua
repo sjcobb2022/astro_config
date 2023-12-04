@@ -3,4 +3,5 @@ return {
   -- "phpactor"
   -- "intelephense"
   "haskell-language-server"
+  "rust-analyzer"
 }

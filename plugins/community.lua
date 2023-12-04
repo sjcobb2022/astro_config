@@ -12,6 +12,10 @@ return {
   { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.tailwindcss" },
+  { 
+    "williamboman/mason-lspconfig.nvim",
+    opts = function(_, opts) table.remove(opts.ensure_installed , "rust_analyzer") end,
+  }
   {
     "simrat39/rust-tools.nvim",
     opts = {
