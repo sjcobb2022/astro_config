@@ -3,7 +3,7 @@ return {
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.python" },
-  -- { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.nix" },
   -- { import = "astrocommunity.pack.haskell" },
@@ -12,10 +12,6 @@ return {
   { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.tailwindcss" },
-  { 
-    "williamboman/mason-lspconfig.nvim",
-    opts = function(_, opts) table.remove(opts.ensure_installed , "rust_analyzer") end,
-  },
   {
     "simrat39/rust-tools.nvim",
     opts = {
