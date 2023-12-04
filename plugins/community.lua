@@ -13,6 +13,12 @@ return {
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.tailwindcss" },
   {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {},
+    },
+  },
+  {
     "simrat39/rust-tools.nvim",
     opts = {
       tools = {
