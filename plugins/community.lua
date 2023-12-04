@@ -17,7 +17,7 @@ return {
     opts = {
       automatic_installation = { exclude = { "rust_analyzer" } },
     },
-  }
+  },
   {
     "simrat39/rust-tools.nvim",
     opts = {
