@@ -12,7 +12,12 @@ return {
   { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.tailwindcss" },
-  { "williamboman/mason-lspconfig.nvim", enabled = false },
+  { 
+    "mason-lspconfig",
+    opts = {
+      automatic_installation = { exclude = { "rust_analyzer" } },
+    },
+  }
   {
     "simrat39/rust-tools.nvim",
     opts = {
