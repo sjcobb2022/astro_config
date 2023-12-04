@@ -2,6 +2,6 @@ return {
   -- had issues with PHP
   -- "phpactor"
   -- "intelephense"
-  "haskell-language-server"
+  "haskell-language-server",
   "rust-analyzer"
 }
