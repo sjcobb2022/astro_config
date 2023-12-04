@@ -13,7 +13,7 @@ return {
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.tailwindcss" },
   { 
-    "mason-lspconfig",
+    "williamboman/mason-lspconfig",
     opts = {
       automatic_installation = { exclude = { "rust_analyzer" } },
     },
