@@ -50,11 +50,8 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      "rust_analyzer"
+      "rust-analyzer"
       -- "pyright"
-    },
-    config = {
-      rust_analyzer = {},
     },
   },
 
